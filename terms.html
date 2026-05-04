@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service / 利用規約 / 服务条款 — ペラペラ日本語</title>
+<style>
+  :root {
+    --bg: #F5F1EA;
+    --surface: #FFFFFF;
+    --ink: #2D2A26;
+    --ink-soft: #5A5651;
+    --ink-fade: #8B857C;
+    --navy: #1E3A5F;
+    --coral: #C56B6B;
+    --line: #E8E0D2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Hiragino Sans', 'PingFang SC', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  body { padding: 0 0 60px; }
+  .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    padding: 32px 24px 16px;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+    position: sticky; top: 0; z-index: 10;
+    backdrop-filter: blur(8px);
+    background: rgba(245, 241, 234, 0.92);
+  }
+  .logo-row {
+    display: flex; align-items: center; justify-content: center; gap: 12px;
+    margin-bottom: 14px;
+  }
+  .logo-row svg { width: 36px; height: 36px; border-radius: 8px; }
+  .brand { font-size: 14px; color: var(--ink-soft); letter-spacing: 0.05em; }
+  .brand strong { color: var(--navy); font-weight: 600; }
+
+  .lang-switch {
+    display: inline-flex; gap: 4px; background: var(--surface);
+    padding: 4px; border-radius: 999px; border: 1px solid var(--line);
+  }
+  .lang-switch button {
+    appearance: none; border: none; background: transparent;
+    padding: 6px 16px; border-radius: 999px; font-size: 13px;
+    color: var(--ink-fade); cursor: pointer; font-family: inherit;
+    transition: all 0.2s ease;
+  }
+  .lang-switch button.active { background: var(--navy); color: #fff; }
+  .lang-switch button:hover:not(.active) { color: var(--ink); }
+
+  main { padding: 48px 24px 40px; }
+  .doc-meta {
+    text-align: center; color: var(--ink-fade); font-size: 13px;
+    margin-bottom: 36px;
+  }
+  h1 {
+    font-family: 'Hiragino Mincho ProN', 'Songti SC', Georgia, serif;
+    font-weight: 600; font-size: 32px; line-height: 1.3;
+    color: var(--navy); text-align: center;
+    margin-bottom: 8px; letter-spacing: -0.01em;
+  }
+  h2 {
+    font-family: 'Hiragino Mincho ProN', 'Songti SC', Georgia, serif;
+    font-weight: 600; font-size: 20px;
+    color: var(--navy); margin: 36px 0 14px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--line);
+  }
+  h3 { font-size: 16px; font-weight: 600; color: var(--ink); margin: 20px 0 8px; }
+  p { color: var(--ink-soft); margin-bottom: 14px; }
+  p strong { color: var(--ink); font-weight: 600; }
+  ul { margin: 12px 0 14px 0; padding-left: 22px; color: var(--ink-soft); }
+  ul li { margin-bottom: 6px; }
+  ul li::marker { color: var(--coral); }
+  a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { color: var(--coral); }
+
+  .pricing-table {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  .pricing-table table { width: 100%; border-collapse: collapse; }
+  .pricing-table th, .pricing-table td {
+    padding: 8px 12px; text-align: left;
+    border-bottom: 1px solid var(--line);
+  }
+  .pricing-table th { color: var(--navy); font-weight: 600; font-size: 13px; }
+  .pricing-table tr:last-child td { border-bottom: none; }
+
+  .lang-content { display: none; }
+  body.lang-zh .lang-zh-content,
+  body.lang-ja .lang-ja-content,
+  body.lang-en .lang-en-content { display: block; }
+
+  footer {
+    margin-top: 60px; padding: 24px; text-align: center;
+    color: var(--ink-fade); font-size: 13px; border-top: 1px solid var(--line);
+  }
+  footer a { color: var(--ink-soft); margin: 0 8px; }
+  footer .copyright { margin-top: 12px; font-size: 12px; }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 26px; }
+    h2 { font-size: 18px; }
+    main { padding: 32px 0 24px; }
+    .container { padding: 0 20px; }
+  }
+</style>
+</head>
+<body class="lang-zh">
+
+<header>
+  <div class="logo-row">
+    <img src="logo.png" alt="ペラペラ日本語" style="width:36px;height:36px;border-radius:8px;display:block;" />
+    <div class="brand"><strong>ペラペラ日本語</strong> · Kage Shadowing</div>
+  </div>
+  <div class="lang-switch">
+    <button data-lang="zh" class="active">中文</button>
+    <button data-lang="ja">日本語</button>
+    <button data-lang="en">English</button>
+  </div>
+</header>
+
+<main class="container">
+
+<!-- ========== 中文 ========== -->
+<article class="lang-content lang-zh-content">
+  <h1>服务条款</h1>
+  <div class="doc-meta">最后更新：2026 年 5 月 4 日</div>
+
+  <p>欢迎使用 <strong>ペラペラ日本語（Kage Japanese Shadowing）</strong>。本条款是您与 <strong>tepgu consulting K.K.</strong>（"我们"）之间关于使用本应用的法律协议。下载、安装或使用本应用即表示您已阅读并同意本条款。如不同意，请勿使用本应用。</p>
+
+  <h2>1. 服务说明</h2>
+  <p>本应用提供日语学习辅助功能，包括：</p>
+  <ul>
+    <li>基于 AI 的日语文本优化与朗读</li>
+    <li>AI 情景对话练习与评估</li>
+    <li>日语单词查询与单词本管理</li>
+    <li>学习历史记录</li>
+  </ul>
+  <p>免费版有使用次数限制（每天 3 次跟读、累计 5 次对话）。订阅 Pro 可解锁无限使用。</p>
+
+  <h2>2. 账户与年龄</h2>
+  <p>本应用不要求您注册账户，但您必须年满 13 岁方可使用。如您未满 18 岁，请在监护人同意下使用本应用。</p>
+
+  <h2>3. 订阅与付款</h2>
+
+  <h3>3.1 订阅方案</h3>
+  <p>本应用提供以下订阅方案（价格因地区而异，以 Apple App Store 显示为准）：</p>
+  <div class="pricing-table">
+    <table>
+      <tr><th>方案</th><th>周期</th><th>参考价格</th></tr>
+      <tr><td>Pro 月付</td><td>1 个月</td><td>约 ¥20 / $2.99 USD</td></tr>
+      <tr><td>Pro 季付</td><td>3 个月</td><td>约 ¥48 / $6.99 USD</td></tr>
+      <tr><td>Pro 年付</td><td>12 个月</td><td>约 ¥98 / $15.99 USD</td></tr>
+    </table>
+  </div>
+
+  <h3>3.2 自动续期</h3>
+  <p><strong>所有订阅均为自动续期。</strong>除非您在当前订阅期结束前至少 24 小时取消，否则订阅将自动以同样的价格续期，相应费用将通过您的 Apple ID 收取。</p>
+
+  <h3>3.3 取消订阅</h3>
+  <p>您可以随时通过以下路径取消订阅：</p>
+  <p><strong>iOS 设置 → Apple ID → 订阅 → 选择 ペラペラ日本語 → 取消订阅</strong></p>
+  <p>取消后您仍可使用 Pro 功能至当前订阅周期结束。</p>
+
+  <h3>3.4 退款政策</h3>
+  <p>所有付款由 Apple 处理。退款请求请直接通过 Apple 提交：<a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">https://reportaproblem.apple.com</a>。退款是否批准由 Apple 决定，我们无法直接处理退款。</p>
+
+  <h3>3.5 价格变更</h3>
+  <p>我们保留调整订阅价格的权利。如发生价格变更，我们将通过应用内通知或邮件提前告知您。变更将在您下次续期时生效。如不接受新价格，请在续期前取消订阅。</p>
+
+  <h3>3.6 免费试用（如有）</h3>
+  <p>如本应用提供免费试用期，试用期结束后将自动转为付费订阅，除非您在试用期结束前至少 24 小时取消。</p>
+
+  <h2>4. 用户行为规范</h2>
+  <p>使用本应用时，您同意<strong>不</strong>：</p>
+  <ul>
+    <li>输入违法、淫秽、暴力、歧视或侵犯他人权利的内容</li>
+    <li>对本应用进行逆向工程、反编译或破解</li>
+    <li>使用机器人、爬虫或自动化工具滥用 AI 功能</li>
+    <li>转售、分发或商业化使用本应用的输出内容</li>
+    <li>规避使用配额或订阅限制</li>
+  </ul>
+  <p>违反本条款可能导致您的访问被限制或终止，且不予退款。</p>
+
+  <h2>5. 知识产权</h2>
+  <p>本应用、其图标、设计、品牌、源代码及相关内容的所有知识产权归 tepgu consulting K.K. 所有，受日本及国际版权法保护。您仅获得有限的、非独占的、不可转让的使用许可。</p>
+  <p>您输入的学习内容归您所有。AI 生成的输出供您个人学习使用。</p>
+
+  <h2>6. AI 生成内容免责声明</h2>
+  <p>本应用使用 AI 生成翻译、点评和教学内容。AI 输出可能包含错误、不准确或不适当的内容。<strong>请勿将 AI 输出作为权威信息使用</strong>。重要的语言决策（如考试、商务沟通、合同翻译）请咨询专业人士。</p>
+
+  <h2>7. 服务可用性</h2>
+  <p>我们尽力保证服务稳定，但不保证 100% 可用。本应用可能因维护、网络故障、第三方服务（如 Anthropic、Apple）的问题或不可抗力而暂时不可用。我们对因此造成的不便不承担责任。</p>
+
+  <h2>8. 责任限制</h2>
+  <p>在适用法律允许的最大范围内，<strong>tepgu consulting K.K. 不对任何间接、附带、特殊或后果性损害承担责任</strong>，包括但不限于数据丢失、收入损失、学习成果损失等。</p>
+  <p>我们对您的总责任不超过您在过去 12 个月内为本应用支付的金额。</p>
+
+  <h2>9. 终止</h2>
+  <p>您可以随时停止使用本应用并删除它。我们保留在您违反本条款时随时终止您的访问权的权利。</p>
+
+  <h2>10. 条款变更</h2>
+  <p>我们可能不时更新本条款。重大变更将在应用内通知您。继续使用本应用即表示您接受更新后的条款。</p>
+
+  <h2>11. 适用法律与管辖</h2>
+  <p>本条款受<strong>日本法律</strong>管辖。任何争议应首先通过友好协商解决；协商不成的，提交<strong>东京地方裁判所</strong>作为第一审专属管辖法院。</p>
+
+  <h2>12. 联系我们</h2>
+  <p>如对本条款有任何疑问，请联系：</p>
+  <p>
+    <strong>tepgu consulting K.K.</strong><br>
+    电子邮件：<a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a>
+  </p>
+</article>
+
+<!-- ========== 日本語 ========== -->
+<article class="lang-content lang-ja-content">
+  <h1>利用規約</h1>
+  <div class="doc-meta">最終更新日：2026年5月4日</div>
+
+  <p><strong>ペラペラ日本語（Kage Japanese Shadowing）</strong>（以下「本アプリ」）をご利用いただきありがとうございます。本利用規約は、お客様と <strong>tepgu consulting 株式会社</strong>（以下「当社」）との間で、本アプリの利用に関する法的合意を構成します。本アプリをダウンロード・インストールまたは利用された時点で、本規約に同意いただいたものとみなします。同意いただけない場合は、本アプリをご利用にならないでください。</p>
+
+  <h2>1. サービス内容</h2>
+  <p>本アプリは以下を含む日本語学習機能を提供します：</p>
+  <ul>
+    <li>AI による日本語テキストの最適化と読み上げ</li>
+    <li>AI シーン会話練習と評価</li>
+    <li>日本語単語検索および単語帳管理</li>
+    <li>学習履歴の記録</li>
+  </ul>
+  <p>無料版には利用回数制限があります（シャドーイング 1 日 3 回、会話 累計 5 回）。Pro サブスクリプションで無制限にご利用いただけます。</p>
+
+  <h2>2. アカウントと年齢</h2>
+  <p>本アプリの利用にアカウント登録は不要ですが、ご利用には 13 歳以上である必要があります。18 歳未満の方は、保護者の同意のうえご利用ください。</p>
+
+  <h2>3. サブスクリプションと支払い</h2>
+
+  <h3>3.1 サブスクリプションプラン</h3>
+  <p>本アプリは以下のサブスクリプションプランを提供します（価格は地域により異なり、Apple App Store の表示が優先されます）：</p>
+  <div class="pricing-table">
+    <table>
+      <tr><th>プラン</th><th>期間</th><th>参考価格</th></tr>
+      <tr><td>Pro 月額</td><td>1ヶ月</td><td>約 ¥20 / $2.99 USD</td></tr>
+      <tr><td>Pro 3ヶ月</td><td>3ヶ月</td><td>約 ¥48 / $6.99 USD</td></tr>
+      <tr><td>Pro 年額</td><td>12ヶ月</td><td>約 ¥98 / $15.99 USD</td></tr>
+    </table>
+  </div>
+
+  <h3>3.2 自動更新</h3>
+  <p><strong>すべてのサブスクリプションは自動更新されます。</strong>現サブスクリプション期間終了の 24 時間前までにキャンセルされない限り、同価格で自動更新され、料金は Apple ID に請求されます。</p>
+
+  <h3>3.3 サブスクリプションの解約</h3>
+  <p>サブスクリプションはいつでも以下の手順で解約できます：</p>
+  <p><strong>iOS 設定 → Apple ID → サブスクリプション → ペラペラ日本語を選択 → 解約</strong></p>
+  <p>解約後も、現在のサブスクリプション期間終了まで Pro 機能をご利用いただけます。</p>
+
+  <h3>3.4 返金ポリシー</h3>
+  <p>すべての支払いは Apple により処理されます。返金リクエストは Apple に直接お申し込みください：<a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">https://reportaproblem.apple.com</a>。返金の可否は Apple の判断によります。当社で直接返金処理を行うことはできません。</p>
+
+  <h3>3.5 価格の変更</h3>
+  <p>当社はサブスクリプション価格を変更する権利を留保します。価格変更がある場合、アプリ内通知またはメールで事前にお知らせします。変更は次回更新時から適用されます。新価格にご同意いただけない場合は、更新前に解約してください。</p>
+
+  <h3>3.6 無料トライアル（提供される場合）</h3>
+  <p>無料トライアルが提供される場合、トライアル終了の 24 時間前までに解約されない限り、自動的に有料サブスクリプションへ移行します。</p>
+
+  <h2>4. 利用者の行為規範</h2>
+  <p>本アプリの利用にあたり、以下の行為を<strong>禁止</strong>します：</p>
+  <ul>
+    <li>違法、わいせつ、暴力的、差別的または他人の権利を侵害する内容を入力すること</li>
+    <li>本アプリのリバースエンジニアリング、逆コンパイルまたはクラッキング</li>
+    <li>ボット、スクレイパー、自動化ツールを用いた AI 機能の濫用</li>
+    <li>本アプリの出力内容の再販、配布または商業利用</li>
+    <li>利用枠やサブスクリプション制限の回避</li>
+  </ul>
+  <p>本規約違反があった場合、アクセス制限・終了の措置を取ることがあり、その場合返金は行いません。</p>
+
+  <h2>5. 知的財産権</h2>
+  <p>本アプリ、そのアイコン、デザイン、ブランド、ソースコードおよび関連コンテンツに関するすべての知的財産権は tepgu consulting 株式会社に帰属し、日本および国際著作権法により保護されます。お客様には限定的・非独占的・譲渡不可の使用許諾が付与されます。</p>
+  <p>お客様が入力された学習内容はお客様に帰属します。AI が生成した出力は、お客様の個人的学習目的にご利用ください。</p>
+
+  <h2>6. AI 生成コンテンツに関する免責</h2>
+  <p>本アプリは AI を用いて翻訳・評価・教材を生成しています。AI の出力には誤り、不正確、または不適切な内容が含まれる可能性があります。<strong>AI の出力を権威ある情報として利用しないでください</strong>。試験、ビジネスコミュニケーション、契約翻訳など重要な言語判断には、専門家にご相談ください。</p>
+
+  <h2>7. サービスの利用可能性</h2>
+  <p>当社はサービスの安定運営に努めますが、100% の可用性を保証するものではありません。メンテナンス、ネットワーク障害、第三者サービス（Anthropic、Apple 等）の問題または不可抗力により、本アプリが一時的にご利用いただけない場合があります。これによる不便について当社は責任を負いません。</p>
+
+  <h2>8. 責任の制限</h2>
+  <p>適用法令で許容される最大限の範囲において、<strong>tepgu consulting 株式会社は、間接的、付随的、特別または結果的損害について責任を負わないものとします</strong>。これにはデータ損失、収入損失、学習成果の損失等が含まれます（ただしこれらに限定されません）。</p>
+  <p>当社のお客様に対する総責任は、お客様が過去 12 ヶ月間に本アプリに対して支払った金額を超えないものとします。</p>
+
+  <h2>9. 利用の終了</h2>
+  <p>お客様はいつでも本アプリの利用を停止し、削除することができます。当社は、お客様が本規約に違反した場合、アクセス権をいつでも終了する権利を留保します。</p>
+
+  <h2>10. 規約の変更</h2>
+  <p>当社は本規約を随時更新することがあります。重要な変更があった場合はアプリ内で通知いたします。継続的なご利用は更新後の規約への同意とみなされます。</p>
+
+  <h2>11. 準拠法および管轄</h2>
+  <p>本規約は<strong>日本法</strong>に準拠します。本規約に関する一切の紛争については、まず誠意をもって協議により解決を図るものとし、協議によって解決できない場合、<strong>東京地方裁判所</strong>を第一審の専属的合意管轄裁判所とします。</p>
+
+  <h2>12. お問い合わせ</h2>
+  <p>本規約に関するご質問は下記までご連絡ください：</p>
+  <p>
+    <strong>tepgu consulting 株式会社</strong><br>
+    メール：<a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a>
+  </p>
+</article>
+
+<!-- ========== English ========== -->
+<article class="lang-content lang-en-content">
+  <h1>Terms of Service</h1>
+  <div class="doc-meta">Last updated: May 4, 2026</div>
+
+  <p>Welcome to <strong>ペラペラ日本語 (Kage Japanese Shadowing)</strong> ("the App"). These Terms of Service ("Terms") form a legal agreement between you and <strong>tepgu consulting K.K.</strong> ("we", "us") regarding your use of the App. By downloading, installing, or using the App, you agree to these Terms. If you do not agree, please do not use the App.</p>
+
+  <h2>1. Service Description</h2>
+  <p>The App provides Japanese language learning features, including:</p>
+  <ul>
+    <li>AI-powered Japanese text optimization and speech</li>
+    <li>AI scenario-based dialogue practice with feedback</li>
+    <li>Japanese vocabulary lookup and saved word management</li>
+    <li>Learning history records</li>
+  </ul>
+  <p>The free tier has usage limits (3 shadowing sessions per day, 5 dialogue sessions cumulatively). A Pro subscription unlocks unlimited usage.</p>
+
+  <h2>2. Account &amp; Age</h2>
+  <p>The App does not require account registration, but you must be at least 13 years old to use it. If you are under 18, please use the App with parental consent.</p>
+
+  <h2>3. Subscriptions &amp; Payment</h2>
+
+  <h3>3.1 Subscription Plans</h3>
+  <p>The App offers the following subscription plans (prices vary by region; Apple App Store display takes precedence):</p>
+  <div class="pricing-table">
+    <table>
+      <tr><th>Plan</th><th>Period</th><th>Reference Price</th></tr>
+      <tr><td>Pro Monthly</td><td>1 month</td><td>~ ¥20 / $2.99 USD</td></tr>
+      <tr><td>Pro Quarterly</td><td>3 months</td><td>~ ¥48 / $6.99 USD</td></tr>
+      <tr><td>Pro Yearly</td><td>12 months</td><td>~ ¥98 / $15.99 USD</td></tr>
+    </table>
+  </div>
+
+  <h3>3.2 Auto-Renewal</h3>
+  <p><strong>All subscriptions automatically renew.</strong> Unless cancelled at least 24 hours before the current period ends, your subscription will auto-renew at the same price, charged to your Apple ID.</p>
+
+  <h3>3.3 Cancellation</h3>
+  <p>You can cancel anytime via:</p>
+  <p><strong>iOS Settings → Apple ID → Subscriptions → Select ペラペラ日本語 → Cancel</strong></p>
+  <p>After cancellation, you retain Pro features until the end of the current billing period.</p>
+
+  <h3>3.4 Refund Policy</h3>
+  <p>All payments are processed by Apple. Refund requests must be submitted directly to Apple at: <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">https://reportaproblem.apple.com</a>. Refund decisions rest with Apple; we cannot process refunds directly.</p>
+
+  <h3>3.5 Price Changes</h3>
+  <p>We reserve the right to adjust subscription prices. Any changes will be communicated in-app or via email in advance. Changes take effect on your next renewal. If you do not accept the new price, please cancel before renewal.</p>
+
+  <h3>3.6 Free Trial (if offered)</h3>
+  <p>If a free trial is offered, it will automatically convert to a paid subscription unless cancelled at least 24 hours before the trial ends.</p>
+
+  <h2>4. User Conduct</h2>
+  <p>By using the App, you agree <strong>NOT</strong> to:</p>
+  <ul>
+    <li>Input illegal, obscene, violent, discriminatory, or rights-infringing content</li>
+    <li>Reverse engineer, decompile, or crack the App</li>
+    <li>Use bots, scrapers, or automated tools to abuse AI features</li>
+    <li>Resell, redistribute, or commercially use the App's output</li>
+    <li>Circumvent usage quotas or subscription limits</li>
+  </ul>
+  <p>Violations may result in restricted or terminated access, with no refund.</p>
+
+  <h2>5. Intellectual Property</h2>
+  <p>All intellectual property rights in the App, its icons, design, branding, source code, and related content belong to tepgu consulting K.K. and are protected by Japanese and international copyright law. You receive a limited, non-exclusive, non-transferable license to use the App.</p>
+  <p>Content you input remains yours. AI-generated output is for your personal learning use.</p>
+
+  <h2>6. AI-Generated Content Disclaimer</h2>
+  <p>The App uses AI to generate translations, feedback, and educational content. AI output may contain errors, inaccuracies, or inappropriate material. <strong>Do not rely on AI output as authoritative information</strong>. For critical language decisions (exams, business communication, contract translation), please consult a professional.</p>
+
+  <h2>7. Service Availability</h2>
+  <p>We strive for stable service but cannot guarantee 100% availability. The App may be temporarily unavailable due to maintenance, network failures, third-party service issues (e.g., Anthropic, Apple), or force majeure. We are not liable for resulting inconvenience.</p>
+
+  <h2>8. Limitation of Liability</h2>
+  <p>To the maximum extent permitted by law, <strong>tepgu consulting K.K. shall not be liable for any indirect, incidental, special, or consequential damages</strong>, including but not limited to data loss, lost revenue, or learning outcome loss.</p>
+  <p>Our total liability to you shall not exceed the amount you paid for the App in the past 12 months.</p>
+
+  <h2>9. Termination</h2>
+  <p>You may stop using and delete the App anytime. We reserve the right to terminate your access if you violate these Terms.</p>
+
+  <h2>10. Changes to Terms</h2>
+  <p>We may update these Terms from time to time. Material changes will be communicated in-app. Continued use of the App constitutes acceptance of updated Terms.</p>
+
+  <h2>11. Governing Law &amp; Jurisdiction</h2>
+  <p>These Terms are governed by <strong>the laws of Japan</strong>. Any disputes shall first be resolved through good-faith negotiation; if unresolved, the <strong>Tokyo District Court</strong> shall have exclusive jurisdiction as the court of first instance.</p>
+
+  <h2>12. Contact Us</h2>
+  <p>For questions about these Terms, please contact:</p>
+  <p>
+    <strong>tepgu consulting K.K.</strong><br>
+    Email: <a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a>
+  </p>
+</article>
+
+</main>
+
+<footer>
+  <div>
+    <a href="privacy.html">Privacy Policy / プライバシーポリシー / 隐私政策</a>
+    ·
+    <a href="mailto:vernongxq@gmail.com">Contact</a>
+  </div>
+  <div class="copyright">© 2026 tepgu consulting K.K. All rights reserved.</div>
+</footer>
+
+<script>
+  document.querySelectorAll('.lang-switch button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang;
+      document.body.className = 'lang-' + lang;
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : (lang === 'ja' ? 'ja-JP' : 'en');
+      document.querySelectorAll('.lang-switch button').forEach(b => b.classList.toggle('active', b === btn));
+      try { localStorage.setItem('preferredLang', lang); } catch (e) {}
+    });
+  });
+  try {
+    const saved = localStorage.getItem('preferredLang');
+    if (saved && ['zh','ja','en'].includes(saved)) {
+      document.querySelector(`.lang-switch button[data-lang="${saved}"]`)?.click();
+    } else {
+      const nav = (navigator.language || 'en').toLowerCase();
+      if (nav.startsWith('ja')) document.querySelector('[data-lang="ja"]').click();
+      else if (nav.startsWith('zh')) document.querySelector('[data-lang="zh"]').click();
+      else document.querySelector('[data-lang="en"]').click();
+    }
+  } catch (e) {}
+</script>
+
+</body>
+</html>

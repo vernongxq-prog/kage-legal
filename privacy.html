@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy / プライバシーポリシー / 隐私政策 — ペラペラ日本語</title>
+<style>
+  :root {
+    --bg: #F5F1EA;
+    --surface: #FFFFFF;
+    --ink: #2D2A26;
+    --ink-soft: #5A5651;
+    --ink-fade: #8B857C;
+    --navy: #1E3A5F;
+    --coral: #C56B6B;
+    --line: #E8E0D2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Hiragino Sans', 'PingFang SC', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  body { padding: 0 0 60px; }
+  .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+  /* Header */
+  header {
+    padding: 32px 24px 16px;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(8px);
+    background: rgba(245, 241, 234, 0.92);
+  }
+  .logo-row {
+    display: flex; align-items: center; justify-content: center; gap: 12px;
+    margin-bottom: 14px;
+  }
+  .logo-row svg { width: 36px; height: 36px; border-radius: 8px; }
+  .brand { font-size: 14px; color: var(--ink-soft); letter-spacing: 0.05em; }
+  .brand strong { color: var(--navy); font-weight: 600; }
+
+  /* Lang switch */
+  .lang-switch {
+    display: inline-flex; gap: 4px; background: var(--surface);
+    padding: 4px; border-radius: 999px; border: 1px solid var(--line);
+  }
+  .lang-switch button {
+    appearance: none; border: none; background: transparent;
+    padding: 6px 16px; border-radius: 999px; font-size: 13px;
+    color: var(--ink-fade); cursor: pointer; font-family: inherit;
+    transition: all 0.2s ease;
+  }
+  .lang-switch button.active {
+    background: var(--navy); color: #fff;
+  }
+  .lang-switch button:hover:not(.active) { color: var(--ink); }
+
+  /* Content */
+  main { padding: 48px 24px 40px; }
+  .doc-meta {
+    text-align: center; color: var(--ink-fade); font-size: 13px;
+    margin-bottom: 36px;
+  }
+  h1 {
+    font-family: 'Hiragino Mincho ProN', 'Songti SC', Georgia, serif;
+    font-weight: 600; font-size: 32px; line-height: 1.3;
+    color: var(--navy); text-align: center;
+    margin-bottom: 8px; letter-spacing: -0.01em;
+  }
+  h2 {
+    font-family: 'Hiragino Mincho ProN', 'Songti SC', Georgia, serif;
+    font-weight: 600; font-size: 20px;
+    color: var(--navy); margin: 36px 0 14px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--line);
+  }
+  h3 {
+    font-size: 16px; font-weight: 600; color: var(--ink);
+    margin: 20px 0 8px;
+  }
+  p { color: var(--ink-soft); margin-bottom: 14px; }
+  p strong { color: var(--ink); font-weight: 600; }
+  ul { margin: 12px 0 14px 0; padding-left: 22px; color: var(--ink-soft); }
+  ul li { margin-bottom: 6px; }
+  ul li::marker { color: var(--coral); }
+  a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { color: var(--coral); }
+  code {
+    background: var(--surface); padding: 2px 6px; border-radius: 4px;
+    border: 1px solid var(--line); font-size: 13px;
+    font-family: 'SF Mono', Menlo, monospace;
+  }
+
+  /* Multi-lang content visibility */
+  .lang-content { display: none; }
+  body.lang-zh .lang-zh-content,
+  body.lang-ja .lang-ja-content,
+  body.lang-en .lang-en-content { display: block; }
+
+  /* Footer */
+  footer {
+    margin-top: 60px; padding: 24px; text-align: center;
+    color: var(--ink-fade); font-size: 13px; border-top: 1px solid var(--line);
+  }
+  footer a { color: var(--ink-soft); margin: 0 8px; }
+  footer .copyright { margin-top: 12px; font-size: 12px; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    h1 { font-size: 26px; }
+    h2 { font-size: 18px; }
+    main { padding: 32px 0 24px; }
+    .container { padding: 0 20px; }
+  }
+</style>
+</head>
+<body class="lang-zh">
+
+<header>
+  <div class="logo-row">
+    <img src="logo.png" alt="ペラペラ日本語" style="width:36px;height:36px;border-radius:8px;display:block;" />
+    <div class="brand"><strong>ペラペラ日本語</strong> · Kage Shadowing</div>
+  </div>
+  <div class="lang-switch">
+    <button data-lang="zh" class="active">中文</button>
+    <button data-lang="ja">日本語</button>
+    <button data-lang="en">English</button>
+  </div>
+</header>
+
+<main class="container">
+
+<!-- ========== 中文 ========== -->
+<article class="lang-content lang-zh-content">
+  <h1>隐私政策</h1>
+  <div class="doc-meta">最后更新：2026 年 5 月 4 日</div>
+
+  <p>本隐私政策说明 <strong>tepgu consulting K.K.</strong>（以下简称"我们"）如何收集、使用和保护您在使用 <strong>ペラペラ日本語（Kage Japanese Shadowing）</strong>（以下简称"本应用"）时的个人信息。我们尊重您的隐私，仅收集运行本应用所必需的最少信息。</p>
+
+  <h2>1. 我们是谁</h2>
+  <p>本应用由 tepgu consulting K.K. 开发和运营，公司注册于日本。如有任何隐私相关问题，请通过以下方式联系：<a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a></p>
+
+  <h2>2. 我们收集的信息</h2>
+
+  <h3>2.1 您主动提供的内容</h3>
+  <ul>
+    <li><strong>学习文本</strong>：您在"影子跟读"和"AI 情景对话"功能中输入的日语文本和会话内容</li>
+    <li><strong>录音文件</strong>：您在跟读练习中录制的音频（用于本地回放和可选的 AI 发音评分）</li>
+    <li><strong>查询关键词</strong>：您在单词查询中点击的日语单词</li>
+    <li><strong>个人资料（可选）</strong>：昵称、性别、母语偏好、日语水平等您主动填写的内容</li>
+    <li><strong>邮箱（可选）</strong>：当您选择从匿名账户升级到注册账户时，我们会收集您提供的邮箱地址用于账号识别和恢复</li>
+  </ul>
+
+  <h3>2.2 自动收集的信息</h3>
+  <ul>
+    <li><strong>匿名用户 ID</strong>：首次启动时，Supabase 自动为您分配一个匿名 UUID，作为您的账号标识。该 ID 不与任何个人身份信息绑定</li>
+    <li><strong>使用配额计数</strong>：免费版每日 / 每月的功能使用次数（用于配额管理，不含具体内容）</li>
+    <li><strong>订阅状态</strong>：通过 Apple 应用内购买（IAP）处理的订阅信息（订单凭证、订阅级别、订阅周期）</li>
+  </ul>
+
+  <h3>2.3 您的账户中保存的内容</h3>
+  <p>以下数据保存在您的 Supabase 账户中，与您的匿名 UUID 关联，仅您本人可访问（通过应用层 RLS 策略隔离）：</p>
+  <ul>
+    <li>单词本</li>
+    <li>跟读练习记录及录音文件</li>
+    <li>AI 对话历史</li>
+    <li>个人资料和应用设置</li>
+  </ul>
+  <p>您卸载应用不会自动删除云端数据。如需彻底删除，请通过应用内"删除账户"功能或邮件联系我们。</p>
+
+  <h3>2.4 我们不收集的信息</h3>
+  <p>我们<strong>不会</strong>收集您的真实姓名、电话号码、位置数据、联系人、相册、健康数据、广告标识符（IDFA）或任何其他用于跨应用追踪的个人识别信息。</p>
+
+  <h2>3. 我们如何使用信息</h2>
+  <ul>
+    <li>提供本应用的核心功能（文本优化、语音朗读、对话点评、发音评分、单词查询）</li>
+    <li>在您的设备和云账户之间同步学习数据</li>
+    <li>处理订阅购买和恢复</li>
+    <li>管理免费版使用配额</li>
+    <li>统计聚合使用数据以改善服务（不含个人识别信息）</li>
+  </ul>
+
+  <h2>4. 第三方服务</h2>
+  <p>本应用使用以下第三方服务，您输入的数据可能会传输给它们：</p>
+
+  <h3>4.1 Supabase（后端服务，主要数据处理方）</h3>
+  <p>本应用使用 Supabase 作为后端数据库、用户认证和文件存储服务。您的所有学习数据（单词本、跟读历史、对话记录、录音文件、个人资料）都存储在 Supabase 上。Supabase 的隐私政策：<a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
+
+  <h3>4.2 Google（Gemini AI）</h3>
+  <p>您在 AI 情景对话中输入的内容、以及对话评估请求会发送至 Google Gemini API 进行处理。Google 不会使用这些数据训练通用模型（基于 Google AI for Developers 的 API 服务条款）。Google 隐私政策：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
+
+  <h3>4.3 Microsoft Azure（Pro 用户）</h3>
+  <p>仅当您使用 Pro 高级语音播报或 AI 发音评分功能时，相应的文本或录音会发送至 Microsoft Azure Speech Service 进行处理。Microsoft 隐私声明：<a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener">https://privacy.microsoft.com/privacystatement</a></p>
+
+  <h3>4.4 Jisho.org（公开词典）</h3>
+  <p>当您点击查询单词时，单词会发送到 Jisho.org 的公开 API 获取释义。Jisho.org 是一个免费日语词典服务（基于 JMdict 项目）。</p>
+
+  <h3>4.5 Apple（应用内购买）</h3>
+  <p>所有订阅交易由 Apple 处理。我们不会接触您的支付信息。详见 Apple 的隐私政策：<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a></p>
+
+  <h3>4.6 RevenueCat（订阅状态管理）</h3>
+  <p>我们使用 RevenueCat 验证和管理订阅状态。RevenueCat 仅接收 Apple 订单凭证和您的匿名 UUID。详见：<a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">https://www.revenuecat.com/privacy/</a></p>
+
+  <h2>5. 数据保留与删除</h2>
+  <p>云端数据保留在 Supabase 上，直到您主动删除或注销账户。卸载本应用<strong>不会</strong>自动删除云端数据。</p>
+  <p>如需彻底删除您的账户和所有数据，请通过应用内"删除账户"功能或发送邮件至 vernongxq@gmail.com 申请删除，我们会在 30 天内处理。</p>
+  <p>第三方服务的数据保留按其各自的政策执行。</p>
+
+  <h2>6. 您的权利</h2>
+  <ul>
+    <li><strong>访问与导出</strong>：所有数据均可在应用内查看</li>
+    <li><strong>删除</strong>：您可以在应用内删除任何单条记录，或申请注销账户彻底清除全部数据</li>
+    <li><strong>取消订阅</strong>：通过 iOS 设置 → Apple ID → 订阅 进行管理</li>
+  </ul>
+  <p>如果您是 EU/EEA 居民，您还享有 GDPR 规定的访问、更正、删除、限制处理、数据可携带权和反对处理等权利。请联系我们行使这些权利。</p>
+
+  <h2>7. 儿童隐私</h2>
+  <p>本应用面向 13 岁及以上用户。我们不会有意收集 13 岁以下儿童的个人信息。如果您发现儿童向我们提供了信息，请联系我们删除。</p>
+
+  <h2>8. 数据安全</h2>
+  <p>所有网络传输均使用 HTTPS 加密。我们采取合理的技术和管理措施保护您的数据，但请理解互联网传输无法保证 100% 安全。</p>
+
+  <h2>9. 政策更新</h2>
+  <p>我们可能不时更新本政策。重大变更将在应用内通知您。继续使用本应用即表示您接受更新后的政策。</p>
+
+  <h2>10. 联系我们</h2>
+  <p>如有任何问题或意见，请联系：</p>
+  <p>
+    <strong>tepgu consulting K.K.</strong><br>
+    电子邮件：<a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a>
+  </p>
+</article>
+
+<!-- ========== 日本語 ========== -->
+<article class="lang-content lang-ja-content">
+  <h1>プライバシーポリシー</h1>
+  <div class="doc-meta">最終更新日：2026年5月4日</div>
+
+  <p>本プライバシーポリシーは、<strong>tepgu consulting 株式会社</strong>（以下「当社」）が、<strong>ペラペラ日本語（Kage Japanese Shadowing）</strong>（以下「本アプリ」）の利用に際して収集する個人情報の取り扱いについて定めるものです。当社はお客様のプライバシーを尊重し、本アプリの運営に必要最小限の情報のみを収集します。</p>
+
+  <h2>1. 運営者について</h2>
+  <p>本アプリは、日本にて登録された tepgu consulting 株式会社により開発・運営されています。プライバシーに関するお問い合わせは下記までご連絡ください：<a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a></p>
+
+  <h2>2. 収集する情報</h2>
+
+  <h3>2.1 お客様が入力する情報</h3>
+  <ul>
+    <li><strong>学習テキスト</strong>：「シャドーイング練習」および「AI 会話」機能で入力された日本語テキストおよび会話内容</li>
+    <li><strong>録音ファイル</strong>：シャドーイング練習で録音した音声（再生および任意の AI 発音採点に使用）</li>
+    <li><strong>検索キーワード</strong>：単語検索でクリックした日本語単語</li>
+    <li><strong>プロフィール（任意）</strong>：ニックネーム、性別、母国語設定、日本語レベルなど、お客様が任意で入力された情報</li>
+    <li><strong>メールアドレス（任意）</strong>：匿名アカウントから登録アカウントへアップグレードする場合に、アカウント識別および復元のためメールアドレスを収集します</li>
+  </ul>
+
+  <h3>2.2 自動的に収集される情報</h3>
+  <ul>
+    <li><strong>匿名ユーザー ID</strong>：初回起動時に Supabase が自動で割り当てる匿名 UUID。アカウント識別子として使用され、個人情報とは紐付きません</li>
+    <li><strong>利用枠カウンター</strong>：無料版の日次・月次の機能利用回数（具体的なコンテンツは含まず、回数のみ）</li>
+    <li><strong>サブスクリプション情報</strong>：Apple アプリ内課金（IAP）を介して処理される情報（領収書、プラン種別、購入日時）</li>
+  </ul>
+
+  <h3>2.3 アカウントに保存される情報</h3>
+  <p>以下のデータは Supabase 上のお客様のアカウントに匿名 UUID と紐付けて保存され、お客様本人のみがアクセス可能です（アプリ層で行レベルセキュリティ（RLS）により隔離）：</p>
+  <ul>
+    <li>マイ単語帳</li>
+    <li>シャドーイング履歴および録音ファイル</li>
+    <li>AI 会話履歴</li>
+    <li>プロフィールおよびアプリ設定</li>
+  </ul>
+  <p>アプリのアンインストールではクラウド上のデータは自動削除されません。完全に削除をご希望の場合は、アプリ内の「アカウント削除」機能、またはメールにてご依頼ください。</p>
+
+  <h3>2.4 収集しない情報</h3>
+  <p>当社は、お客様の本名、電話番号、位置情報、連絡先、写真、健康データ、広告 ID（IDFA）、その他のクロスアプリトラッキングに使用される個人識別情報を<strong>収集いたしません</strong>。</p>
+
+  <h2>3. 情報の利用目的</h2>
+  <ul>
+    <li>本アプリの主要機能（テキスト最適化、音声読み上げ、会話評価、発音採点、単語検索）の提供</li>
+    <li>デバイスとクラウドアカウント間の学習データ同期</li>
+    <li>サブスクリプション購入および復元の処理</li>
+    <li>無料版の利用枠管理</li>
+    <li>個人を特定しない集計データに基づくサービス改善</li>
+  </ul>
+
+  <h2>4. 第三者サービス</h2>
+  <p>本アプリは以下の第三者サービスを利用しており、入力されたデータが送信される場合があります：</p>
+
+  <h3>4.1 Supabase（バックエンドサービス・主要データ処理者）</h3>
+  <p>本アプリは Supabase をバックエンドデータベース、ユーザー認証、ファイルストレージとして利用しています。お客様の学習データ（単語帳、シャドーイング履歴、会話履歴、録音ファイル、プロフィール）はすべて Supabase に保存されます。Supabase プライバシーポリシー：<a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
+
+  <h3>4.2 Google（Gemini AI）</h3>
+  <p>AI シナリオ会話で入力された内容、および会話評価リクエストは Google Gemini API へ送信され処理されます。Google は Google AI for Developers の API 利用規約に基づき、これらのデータを汎用モデルの学習には使用しません。Google プライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
+
+  <h3>4.3 Microsoft Azure（Pro ユーザーのみ）</h3>
+  <p>Pro プレミアム音声または AI 発音採点機能をご利用の場合、対応するテキストまたは録音ファイルが Microsoft Azure Speech Service へ送信され処理されます。Microsoft プライバシーステートメント：<a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener">https://privacy.microsoft.com/privacystatement</a></p>
+
+  <h3>4.4 Jisho.org（公開辞書）</h3>
+  <p>単語検索をタップした際、当該単語が Jisho.org の公開 API へ送信され、語義が取得されます。Jisho.org は無料の日本語辞書サービス（JMdict プロジェクトに基づく）です。</p>
+
+  <h3>4.5 Apple（アプリ内課金）</h3>
+  <p>すべてのサブスクリプション取引は Apple により処理されます。当社はお客様の決済情報には一切アクセスしません。Apple のプライバシーポリシー：<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a></p>
+
+  <h3>4.6 RevenueCat（サブスクリプション状態管理）</h3>
+  <p>当社はサブスクリプション検証および管理に RevenueCat を利用しています。RevenueCat は Apple の領収書とお客様の匿名 UUID のみを受け取ります。詳細：<a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">https://www.revenuecat.com/privacy/</a></p>
+
+  <h2>5. データの保管と削除</h2>
+  <p>クラウドデータは Supabase 上に保存され、お客様が削除またはアカウント解約されるまで保持されます。アプリのアンインストールではクラウドデータは<strong>自動削除されません</strong>。</p>
+  <p>アカウントおよび全データの完全削除をご希望の場合は、アプリ内の「アカウント削除」機能、または vernongxq@gmail.com までメールにてご依頼ください。30 日以内に対応いたします。</p>
+  <p>第三者サービスにおけるデータ保管は、各サービスのポリシーに従います。</p>
+
+  <h2>6. お客様の権利</h2>
+  <ul>
+    <li><strong>アクセス・エクスポート</strong>：すべてのデータはアプリ内で確認可能です</li>
+    <li><strong>削除</strong>：アプリ内で個別記録を削除するか、アカウント解約により全データを完全に削除できます</li>
+    <li><strong>サブスクリプション解約</strong>：iOS の「設定 → Apple ID → サブスクリプション」から管理できます</li>
+  </ul>
+  <p>EU/EEA 居住者は、GDPR に基づくアクセス権、訂正権、削除権、処理制限権、データポータビリティの権利、および異議申立権を有します。これらの権利の行使については当社までご連絡ください。</p>
+
+  <h2>7. お子様のプライバシー</h2>
+  <p>本アプリは 13 歳以上のユーザーを対象としています。当社は 13 歳未満のお子様から意図的に個人情報を収集することはありません。お子様が情報を提供したことが判明した場合は、削除いたしますのでご連絡ください。</p>
+
+  <h2>8. データセキュリティ</h2>
+  <p>すべてのネットワーク通信は HTTPS で暗号化されています。データ保護のため合理的な技術的・組織的措置を講じておりますが、インターネット送信の絶対的な安全性は保証できないことをご了承ください。</p>
+
+  <h2>9. ポリシーの変更</h2>
+  <p>当社は本ポリシーを随時更新することがあります。重要な変更があった場合はアプリ内で通知いたします。継続的なご利用は更新後のポリシーへの同意とみなされます。</p>
+
+  <h2>10. お問い合わせ</h2>
+  <p>ご質問・ご意見は下記までご連絡ください：</p>
+  <p>
+    <strong>tepgu consulting 株式会社</strong><br>
+    メール：<a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a>
+  </p>
+</article>
+
+<!-- ========== English ========== -->
+<article class="lang-content lang-en-content">
+  <h1>Privacy Policy</h1>
+  <div class="doc-meta">Last updated: May 4, 2026</div>
+
+  <p>This Privacy Policy describes how <strong>tepgu consulting K.K.</strong> ("we", "us") collects, uses, and protects your personal information when you use <strong>ペラペラ日本語 (Kage Japanese Shadowing)</strong> ("the App"). We respect your privacy and collect only the minimum information necessary to operate the App.</p>
+
+  <h2>1. Who We Are</h2>
+  <p>The App is developed and operated by tepgu consulting K.K., a company registered in Japan. For privacy-related inquiries, contact us at: <a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a></p>
+
+  <h2>2. Information We Collect</h2>
+
+  <h3>2.1 Information You Provide</h3>
+  <ul>
+    <li><strong>Learning content</strong>: Japanese text and dialogue you enter in the "Shadowing Practice" and "AI Conversation" features</li>
+    <li><strong>Audio recordings</strong>: Recordings made during shadowing practice (used for playback and optional AI pronunciation scoring)</li>
+    <li><strong>Lookup queries</strong>: Japanese words you tap to look up</li>
+    <li><strong>Profile (optional)</strong>: Nickname, gender, native language preference, JLPT level — only if you choose to fill them in</li>
+    <li><strong>Email (optional)</strong>: If you choose to upgrade from an anonymous account to a registered account, we collect the email address you provide for account identification and recovery</li>
+  </ul>
+
+  <h3>2.2 Information Collected Automatically</h3>
+  <ul>
+    <li><strong>Anonymous user ID</strong>: On first launch, Supabase automatically assigns you an anonymous UUID as your account identifier. This ID is not linked to any personally identifiable information</li>
+    <li><strong>Usage counters</strong>: Daily and monthly counts of feature usage in the free tier (count only, no content)</li>
+    <li><strong>Subscription status</strong>: Subscription details processed via Apple In-App Purchase (IAP) — receipts, plan type, dates</li>
+  </ul>
+
+  <h3>2.3 Information Stored in Your Account</h3>
+  <p>The following data is stored on Supabase, associated with your anonymous UUID, and accessible only to you (isolated by row-level security policies at the application layer):</p>
+  <ul>
+    <li>Your saved vocabulary</li>
+    <li>Shadowing history and audio recordings</li>
+    <li>AI dialogue history</li>
+    <li>Profile and app settings</li>
+  </ul>
+  <p>Uninstalling the App does <strong>not</strong> automatically delete cloud data. To fully delete your data, use the in-app "Delete Account" function or contact us by email.</p>
+
+  <h3>2.4 Information We Do NOT Collect</h3>
+  <p>We do <strong>not</strong> collect your real name, phone number, location, contacts, photos, health data, advertising identifiers (IDFA), or any other personally identifiable information used for cross-app tracking.</p>
+
+  <h2>3. How We Use Information</h2>
+  <ul>
+    <li>To provide the App's core features (text optimization, speech, dialogue feedback, pronunciation scoring, vocabulary lookup)</li>
+    <li>To sync your learning data between device and cloud account</li>
+    <li>To process subscription purchases and restoration</li>
+    <li>To enforce free-tier usage quotas</li>
+    <li>To improve the service based on aggregated, non-identifying usage analytics</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>The App uses the following third-party services. Data you provide may be transmitted to them:</p>
+
+  <h3>4.1 Supabase (Backend / Primary Data Processor)</h3>
+  <p>The App uses Supabase as its backend database, authentication provider, and file storage. All your learning data (vocabulary, shadowing history, dialogue history, audio recordings, profile) is stored on Supabase. Supabase Privacy Policy: <a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
+
+  <h3>4.2 Google (Gemini AI)</h3>
+  <p>Content you enter in AI scenario conversations and conversation evaluation requests is sent to the Google Gemini API for processing. Per the Google AI for Developers API Service Terms, Google does not use this data to train its general-purpose models. Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
+
+  <h3>4.3 Microsoft Azure (Pro users only)</h3>
+  <p>When you use the Pro premium voice or AI pronunciation scoring features, the corresponding text or recording is sent to Microsoft Azure Speech Service for processing. Microsoft Privacy Statement: <a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener">https://privacy.microsoft.com/privacystatement</a></p>
+
+  <h3>4.4 Jisho.org (Public Dictionary)</h3>
+  <p>When you tap a word to look up its definition, the word is sent to the public Jisho.org API. Jisho.org is a free Japanese dictionary service based on the JMdict project.</p>
+
+  <h3>4.5 Apple (In-App Purchases)</h3>
+  <p>All subscription transactions are processed by Apple. We never see your payment details. See Apple's Privacy Policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a></p>
+
+  <h3>4.6 RevenueCat (Subscription State Management)</h3>
+  <p>We use RevenueCat to validate and manage subscription state. RevenueCat receives only Apple receipts and your anonymous UUID. Details: <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">https://www.revenuecat.com/privacy/</a></p>
+
+  <h2>5. Data Retention &amp; Deletion</h2>
+  <p>Cloud data is retained on Supabase until you actively delete it or close your account. Uninstalling the App does <strong>not</strong> automatically delete cloud data.</p>
+  <p>To fully delete your account and all data, use the in-app "Delete Account" function, or email vernongxq@gmail.com — we will process the request within 30 days.</p>
+  <p>Data retention by third-party services is governed by their respective policies.</p>
+
+  <h2>6. Your Rights</h2>
+  <ul>
+    <li><strong>Access &amp; export</strong>: All your data is viewable within the App</li>
+    <li><strong>Deletion</strong>: You can delete individual records in-app, or close your account to permanently erase all data</li>
+    <li><strong>Cancel subscription</strong>: Manage via iOS Settings → Apple ID → Subscriptions</li>
+  </ul>
+  <p>If you are an EU/EEA resident, you also have rights under GDPR including access, rectification, erasure, restriction of processing, data portability, and objection. Contact us to exercise these rights.</p>
+
+  <h2>7. Children's Privacy</h2>
+  <p>The App is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you discover that a child has provided us with information, please contact us so we can delete it.</p>
+
+  <h2>8. Data Security</h2>
+  <p>All network transmissions are encrypted with HTTPS. We employ reasonable technical and organizational measures to protect your data, but please understand that no transmission over the internet is 100% secure.</p>
+
+  <h2>9. Policy Updates</h2>
+  <p>We may update this policy from time to time. Material changes will be communicated within the App. Continued use of the App constitutes acceptance of the updated policy.</p>
+
+  <h2>10. Contact Us</h2>
+  <p>For questions or concerns, please reach out to:</p>
+  <p>
+    <strong>tepgu consulting K.K.</strong><br>
+    Email: <a href="mailto:vernongxq@gmail.com">vernongxq@gmail.com</a>
+  </p>
+</article>
+
+</main>
+
+<footer>
+  <div>
+    <a href="terms.html">Terms of Service / 利用規約 / 服务条款</a>
+    ·
+    <a href="mailto:vernongxq@gmail.com">Contact</a>
+  </div>
+  <div class="copyright">© 2026 tepgu consulting K.K. All rights reserved.</div>
+</footer>
+
+<script>
+  document.querySelectorAll('.lang-switch button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang;
+      document.body.className = 'lang-' + lang;
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : (lang === 'ja' ? 'ja-JP' : 'en');
+      document.querySelectorAll('.lang-switch button').forEach(b => b.classList.toggle('active', b === btn));
+      // Persist user choice
+      try { localStorage.setItem('preferredLang', lang); } catch (e) {}
+    });
+  });
+  // Restore preference on load
+  try {
+    const saved = localStorage.getItem('preferredLang');
+    if (saved && ['zh','ja','en'].includes(saved)) {
+      document.querySelector(`.lang-switch button[data-lang="${saved}"]`)?.click();
+    } else {
+      // Auto-detect from browser
+      const nav = (navigator.language || 'en').toLowerCase();
+      if (nav.startsWith('ja')) document.querySelector('[data-lang="ja"]').click();
+      else if (nav.startsWith('zh')) document.querySelector('[data-lang="zh"]').click();
+      else document.querySelector('[data-lang="en"]').click();
+    }
+  } catch (e) {}
+</script>
+
+</body>
+</html>
