@@ -140,7 +140,7 @@
 <!-- ========== 中文 ========== -->
 <article class="lang-content lang-zh-content">
   <h1>隐私政策</h1>
-  <div class="doc-meta">最后更新：2026 年 5 月 4 日</div>
+  <div class="doc-meta">最后更新：2026 年 9 月 29 日</div>
 
   <p>本隐私政策说明 <strong>tepgu consulting K.K.</strong>（以下简称"我们"）如何收集、使用和保护您在使用 <strong>ペラペラ日本語（Kage Japanese Shadowing）</strong>（以下简称"本应用"）时的个人信息。我们尊重您的隐私，仅收集运行本应用所必需的最少信息。</p>
 
@@ -152,7 +152,7 @@
   <h3>2.1 您主动提供的内容</h3>
   <ul>
     <li><strong>学习文本</strong>：您在"影子跟读"和"AI 情景对话"功能中输入的日语文本和会话内容</li>
-    <li><strong>录音文件</strong>：您在跟读练习中录制的音频（用于本地回放和可选的 AI 发音评分）</li>
+    <li><strong>录音</strong>：您在跟读练习中录制的音频。录音<strong>仅保存在您的设备上</strong>，不会上传到我们的服务器。仅当您使用 AI 发音评分时，该段音频才会发送至 Microsoft Azure 进行一次性处理，我们不保留副本（见第 4 节）</li>
     <li><strong>查询关键词</strong>：您在单词查询中点击的日语单词</li>
     <li><strong>个人资料（可选）</strong>：昵称、性别、母语偏好、日语水平等您主动填写的内容</li>
     <li><strong>邮箱（可选）</strong>：当您选择从匿名账户升级到注册账户时，我们会收集您提供的邮箱地址用于账号识别和恢复</li>
@@ -169,7 +169,7 @@
   <p>以下数据保存在您的 Supabase 账户中，与您的匿名 UUID 关联，仅您本人可访问（通过应用层 RLS 策略隔离）：</p>
   <ul>
     <li>单词本</li>
-    <li>跟读练习记录及录音文件</li>
+    <li>跟读练习记录（文本、评分和反馈；<strong>不含录音</strong>）</li>
     <li>AI 对话历史</li>
     <li>个人资料和应用设置</li>
   </ul>
@@ -191,7 +191,7 @@
   <p>本应用使用以下第三方服务，您输入的数据可能会传输给它们：</p>
 
   <h3>4.1 Supabase（后端服务，主要数据处理方）</h3>
-  <p>本应用使用 Supabase 作为后端数据库、用户认证和文件存储服务。您的所有学习数据（单词本、跟读历史、对话记录、录音文件、个人资料）都存储在 Supabase 上。Supabase 的隐私政策：<a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
+  <p>本应用使用 Supabase 作为后端数据库、用户认证和文件存储服务。您的学习数据（单词本、跟读历史、对话记录、个人资料）存储在 Supabase 上。录音不在其中 —— 它不会离开您的设备，除非您主动使用 AI 发音评分（届时发送至 Azure，不经过我们的存储）。Supabase 的隐私政策：<a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
 
   <h3>4.2 Google（Gemini AI）</h3>
   <p>您在 AI 情景对话中输入的内容、以及对话评估请求会发送至 Google Gemini API 进行处理。Google 不会使用这些数据训练通用模型（基于 Google AI for Developers 的 API 服务条款）。Google 隐私政策：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
@@ -241,7 +241,7 @@
 <!-- ========== 日本語 ========== -->
 <article class="lang-content lang-ja-content">
   <h1>プライバシーポリシー</h1>
-  <div class="doc-meta">最終更新日：2026年5月4日</div>
+  <div class="doc-meta">最終更新日：2026年9月29日</div>
 
   <p>本プライバシーポリシーは、<strong>tepgu consulting 株式会社</strong>（以下「当社」）が、<strong>ペラペラ日本語（Kage Japanese Shadowing）</strong>（以下「本アプリ」）の利用に際して収集する個人情報の取り扱いについて定めるものです。当社はお客様のプライバシーを尊重し、本アプリの運営に必要最小限の情報のみを収集します。</p>
 
@@ -253,7 +253,7 @@
   <h3>2.1 お客様が入力する情報</h3>
   <ul>
     <li><strong>学習テキスト</strong>：「シャドーイング練習」および「AI 会話」機能で入力された日本語テキストおよび会話内容</li>
-    <li><strong>録音ファイル</strong>：シャドーイング練習で録音した音声（再生および任意の AI 発音採点に使用）</li>
+    <li><strong>録音</strong>：シャドーイング練習で録音した音声。録音は<strong>お客様の端末内にのみ保存され</strong>、当社サーバーにアップロードされることはありません。AI 発音採点をご利用の場合に限り、その音声が Microsoft Azure へ送信され一度だけ処理されます。当社は複製を保持しません（第 4 節参照）</li>
     <li><strong>検索キーワード</strong>：単語検索でクリックした日本語単語</li>
     <li><strong>プロフィール（任意）</strong>：ニックネーム、性別、母国語設定、日本語レベルなど、お客様が任意で入力された情報</li>
     <li><strong>メールアドレス（任意）</strong>：匿名アカウントから登録アカウントへアップグレードする場合に、アカウント識別および復元のためメールアドレスを収集します</li>
@@ -270,7 +270,7 @@
   <p>以下のデータは Supabase 上のお客様のアカウントに匿名 UUID と紐付けて保存され、お客様本人のみがアクセス可能です（アプリ層で行レベルセキュリティ（RLS）により隔離）：</p>
   <ul>
     <li>マイ単語帳</li>
-    <li>シャドーイング履歴および録音ファイル</li>
+    <li>シャドーイング履歴（テキスト・スコア・フィードバック。<strong>録音は含みません</strong>）</li>
     <li>AI 会話履歴</li>
     <li>プロフィールおよびアプリ設定</li>
   </ul>
@@ -292,7 +292,7 @@
   <p>本アプリは以下の第三者サービスを利用しており、入力されたデータが送信される場合があります：</p>
 
   <h3>4.1 Supabase（バックエンドサービス・主要データ処理者）</h3>
-  <p>本アプリは Supabase をバックエンドデータベース、ユーザー認証、ファイルストレージとして利用しています。お客様の学習データ（単語帳、シャドーイング履歴、会話履歴、録音ファイル、プロフィール）はすべて Supabase に保存されます。Supabase プライバシーポリシー：<a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
+  <p>本アプリは Supabase をバックエンドデータベース、ユーザー認証、ファイルストレージとして利用しています。お客様の学習データ（単語帳、シャドーイング履歴、会話履歴、プロフィール）は Supabase に保存されます。録音は含まれません。録音は端末外に出ることはなく、AI 発音採点をご利用の場合のみ Azure へ送信されます（当社のストレージは経由しません）。Supabase プライバシーポリシー：<a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
 
   <h3>4.2 Google（Gemini AI）</h3>
   <p>AI シナリオ会話で入力された内容、および会話評価リクエストは Google Gemini API へ送信され処理されます。Google は Google AI for Developers の API 利用規約に基づき、これらのデータを汎用モデルの学習には使用しません。Google プライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
@@ -342,7 +342,7 @@
 <!-- ========== English ========== -->
 <article class="lang-content lang-en-content">
   <h1>Privacy Policy</h1>
-  <div class="doc-meta">Last updated: May 4, 2026</div>
+  <div class="doc-meta">Last updated: September 29, 2026</div>
 
   <p>This Privacy Policy describes how <strong>tepgu consulting K.K.</strong> ("we", "us") collects, uses, and protects your personal information when you use <strong>ペラペラ日本語 (Kage Japanese Shadowing)</strong> ("the App"). We respect your privacy and collect only the minimum information necessary to operate the App.</p>
 
@@ -354,7 +354,7 @@
   <h3>2.1 Information You Provide</h3>
   <ul>
     <li><strong>Learning content</strong>: Japanese text and dialogue you enter in the "Shadowing Practice" and "AI Conversation" features</li>
-    <li><strong>Audio recordings</strong>: Recordings made during shadowing practice (used for playback and optional AI pronunciation scoring)</li>
+    <li><strong>Audio recordings</strong>: Audio you record during shadowing practice. Recordings stay <strong>on your device</strong> and are never uploaded to our servers. Only when you use AI pronunciation scoring is that audio sent to Microsoft Azure for one-off processing; we keep no copy (see Section 4)</li>
     <li><strong>Lookup queries</strong>: Japanese words you tap to look up</li>
     <li><strong>Profile (optional)</strong>: Nickname, gender, native language preference, JLPT level — only if you choose to fill them in</li>
     <li><strong>Email (optional)</strong>: If you choose to upgrade from an anonymous account to a registered account, we collect the email address you provide for account identification and recovery</li>
@@ -371,7 +371,7 @@
   <p>The following data is stored on Supabase, associated with your anonymous UUID, and accessible only to you (isolated by row-level security policies at the application layer):</p>
   <ul>
     <li>Your saved vocabulary</li>
-    <li>Shadowing history and audio recordings</li>
+    <li>Shadowing history — text, scores and feedback (<strong>not the recordings</strong>)</li>
     <li>AI dialogue history</li>
     <li>Profile and app settings</li>
   </ul>
@@ -393,7 +393,7 @@
   <p>The App uses the following third-party services. Data you provide may be transmitted to them:</p>
 
   <h3>4.1 Supabase (Backend / Primary Data Processor)</h3>
-  <p>The App uses Supabase as its backend database, authentication provider, and file storage. All your learning data (vocabulary, shadowing history, dialogue history, audio recordings, profile) is stored on Supabase. Supabase Privacy Policy: <a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
+  <p>The App uses Supabase as its backend database, authentication provider, and file storage. Your learning data (vocabulary, shadowing history, dialogue history, profile) is stored on Supabase. Recordings are not: they never leave your device unless you use AI pronunciation scoring, in which case they go to Azure and never through our storage. Supabase Privacy Policy: <a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
 
   <h3>4.2 Google (Gemini AI)</h3>
   <p>Content you enter in AI scenario conversations and conversation evaluation requests is sent to the Google Gemini API for processing. Per the Google AI for Developers API Service Terms, Google does not use this data to train its general-purpose models. Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
